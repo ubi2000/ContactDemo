@@ -1,0 +1,21 @@
+.heading {
+
+  font-size: 20px;
+  text-align: center;
+}
+
+.heading h3 {
+  color: rgb(167, 197, 167);
+  margin-bottom: 20px;
+}
+.heading p {
+  color: rgb(167, 197, 167);
+
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.products:hover img {
+  background-color: antiquewhite;
+}
